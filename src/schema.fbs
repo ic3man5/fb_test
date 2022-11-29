@@ -1,0 +1,12 @@
+table Weapon {
+  name:string;
+  damage:short;
+  two_handed:bool;
+}
+root_type Weapon;
+
+table Shield {
+  name:string;
+  damage:short;
+}
+root_type Shield;
